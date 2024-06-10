@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #488B42;
+  min-height: 100%;
+  height: 100%;
+}
+body nav {
+  background-color: #59D64E;
+  display: flex;
+  min-height: 8vh;
+  border-bottom: 5px solid #366831;
+}
+body nav a {
+  color: black;
+}
+body nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 35px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+body header h1 {
+  color: white;
+  font-size: 35px;
+}
+body main {
+  display: flex;
+}
+body .homepage_main {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+}
+body .homepage_main .homepage_main_articles {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding-left: 15rem;
+  height: 76.5vh;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+body .homepage_main .homepage_main_articles .homepage_articles {
+  background-color: #7BA766;
+  border-radius: 25px;
+  padding: 2rem;
+}
+body .homepage_main .homepage_links {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding-right: 15rem;
+  align-items: flex-end;
+  height: 76.5vh;
+}
+body .homepage_main .homepage_links .homepage_img {
+  width: 50%;
+  border-radius: 25px;
+  border: 5px solid white;
+}
+body .homepage_main .homepage_links ul {
+  background-color: #7BA766;
+  border-radius: 25px;
+  font-size: 25px;
+  padding: 2rem;
+  list-style-type: none;
+}
+body footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 5vh;
+  background-color: #133D12;
+  border-top: 5px solid #366831;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body footer p {
+  display: flex;
+  width: 30%;
+  padding-left: 5rem;
+  font-size: 18px;
+  margin: 0;
+}
+body footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 25px;
+  margin: 0;
+}
+body footer ul li a {
+  color: white;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

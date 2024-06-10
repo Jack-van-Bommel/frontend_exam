@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
     <title>Opleidingen & Werk</title>
 </head>
 <body>
@@ -43,7 +44,7 @@
         </section>
 
         <section class="school_photo">
-            <img source="#">
+            <img src="#">
         </section>
     </main>
 

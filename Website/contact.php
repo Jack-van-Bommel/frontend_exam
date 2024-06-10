@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
     <title>Contact</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
                 <br>
                 <a href="https://github.com/Jack-van-Bommel">Github</a>
             </article>
-            <img source="#">
+            <img src="#">
         </section>
 
         <section class="contact_rightside">
