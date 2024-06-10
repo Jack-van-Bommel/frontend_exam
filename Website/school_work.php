@@ -12,7 +12,7 @@
     <header>
         <h1>Opleidingen & Werk</h1>
     </header>
-    <main>
+    <main class="school_main">
         <section class="school_work">
             <h2>Werkervaring</h2>
             <h3>Mei 2024 - Heden</h3>
@@ -41,10 +41,7 @@
 
             <h3>Februari 2021 - Juni 2022</h3>
             <p>VMBO-TL versneld VAVO trajet - Yulius onderwijs i.s.m Curio Breda</p>
-        </section>
-
-        <section class="school_photo">
-            <img src="#">
+            <img src="./images/school-photo.jpg">
         </section>
     </main>
 

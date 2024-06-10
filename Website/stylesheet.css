@@ -29,6 +29,7 @@ body nav ul {
 body header {
   display: flex;
   width: 100%;
+  height: 7vh;
   justify-content: center;
 }
 body header h1 {
@@ -37,6 +38,9 @@ body header h1 {
 }
 body main {
   display: flex;
+  height: 72vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 body .homepage_main {
   color: white;
@@ -78,6 +82,153 @@ body .homepage_main .homepage_links ul {
   font-size: 25px;
   padding: 2rem;
   list-style-type: none;
+}
+body .skills_main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+body .skills_main section {
+  background-color: #7BA766;
+  width: 40%;
+  border-radius: 25px;
+  height: 45%;
+}
+body .skills_main section h3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  text-decoration: underline;
+  font-size: 25px;
+}
+body .skills_main section ul {
+  font-size: 20px;
+}
+body .skills_main section ul li {
+  line-height: 2rem;
+}
+body .school_main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+body .school_main .school_work {
+  background-color: #7BA766;
+  width: 40vw;
+  line-height: 2rem;
+  border-radius: 25px;
+}
+body .school_main .school_work h2 {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  text-decoration: underline;
+  font-size: 25px;
+}
+body .school_main .school_work h3 {
+  font-weight: bold;
+  margin-left: 4rem;
+}
+body .school_main .school_work p {
+  font-size: 20px;
+  margin-left: 4rem;
+}
+body .school_main .school_work ul {
+  margin-left: 4rem;
+}
+body .school_main .school_work ul li {
+  font-size: 20px;
+}
+body .school_main .school_diplomas {
+  background-color: #7BA766;
+  width: 40vw;
+  height: 72vh;
+  border-radius: 25px;
+}
+body .school_main .school_diplomas h2 {
+  display: flex;
+  color: white;
+  text-decoration: underline;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+body .school_main .school_diplomas h3 {
+  font-weight: bold;
+  margin-left: 4rem;
+}
+body .school_main .school_diplomas p {
+  font-size: 20px;
+  margin-left: 4rem;
+}
+body .school_main .school_diplomas ul {
+  margin-left: 4rem;
+}
+body .school_main .school_diplomas ul li {
+  font-size: 20px;
+}
+body .school_main .school_diplomas img {
+  margin-top: 2.5rem;
+  object-fit: contain;
+  border-radius: 25px;
+  margin-left: 14vw;
+  height: 36vh;
+  border: 5px solid white;
+}
+body .project_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 25px;
+}
+body .project_main .project_container {
+  width: 100vw;
+  height: 30%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+}
+body .project_main .project_container .project_text {
+  border-radius: 25px;
+  margin-left: 2rem;
+  width: 50%;
+  background-color: #7BA766;
+}
+body .project_main .project_container .project_text h3 {
+  display: flex;
+  color: white;
+  text-decoration: underline;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+body .project_main .project_container .project_text p {
+  margin: 2rem;
+}
+body .project_main .project_container img {
+  margin-left: 10rem;
+  border-radius: 15px;
+  border: 5px solid white;
+}
+body .contact_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+body .contact_main .contact_side {
+  background-color: #7BA766;
+  width: 35vw;
+  line-height: 2rem;
+  border-radius: 25px;
+}
+body .contact_main .contact_side h2 {
+  display: flex;
+  color: white;
+  text-decoration: underline;
+  justify-content: space-evenly;
+  font-size: 30px;
 }
 body footer {
   position: relative;

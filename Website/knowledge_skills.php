@@ -12,9 +12,9 @@
 	<header>
 		<h1>Kennis & Vaardigheden</h1>
 	</header>
-	<main>
+	<main class="skills_main">
 		<section class="skills_backend">
-			<h2>Backend kennis</h2>
+			<h3>Backend kennis</h3>
 			<ul>
 				<li><a href="https://www.php.net/">PHP</a>, zowel procedural als Object Georiënteerd Programmeren</li>
 				<li>Ervaring met <a href="https://www.mysql.com/">MySQL</a> database beheer in <a href="https://www.phpmyadmin.net/">PHPMyAdmin</a></li>
@@ -24,6 +24,7 @@
 		</section>
 
 		<section class="skills_frontend">
+			<h3>Frontend kennis</h3>
 			<ul>
 				<li>Ervaring met het gebruik van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML 5</a> om webpagina's te maken</li>
 				<li>Basis kennis van HTML 5 gebruik in <a href="https://twig.symfony.com/">TWIG Template Management</a></li>
@@ -33,6 +34,7 @@
 		</section>
 
 		<section class="skills_version">
+			<h3>Versie beheer</h3>
 			<ul>
 				<li>Ervaring in het gebruik van <a href="https://github.com/">Github</a> voor versie controle en samenwerking</li>
 				<li>Project beheer bijhehouden met de <a href="https://www.scrum.org/resources/what-scrum-module">SCRUM</a> methode</li>
@@ -41,6 +43,7 @@
 		</section>
 
 		<section class="skills_programs">
+			<h3>Programma's</h3>
 			<ul>
 				<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> met diverse plugins</li>
 				<li><a href="https://visualstudio.microsoft.com/">Visual Studio</a> voor C# projecten</li>
