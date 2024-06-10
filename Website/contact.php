@@ -8,10 +8,12 @@
 <body>
     <?php include "./general_site_files/navbar.html" ?>
 
-    <main>
+    <header>
         <h1>Contact</h1>
-        <div class="contact_leftside">        
-            <div class="contact_leftside_info">
+    </header>
+    <main>
+        <section class="contact_leftside">        
+            <article class="contact_leftside_info">
                 <h2>Contact gegevens</h2>
                 <p>Telefoon: 06 15177984</p>
                 <p>Email: jackvbommel@gmail.com</p>
@@ -21,11 +23,11 @@
                 <a href="https://www.linkedin.com/in/jack-van-bommel-84a1a924b/">LinkedIn</a>
                 <br>
                 <a href="https://github.com/Jack-van-Bommel">Github</a>
-            </div>
+            </article>
             <img source="#">
-        </div>
+        </section>
 
-        <div class="contact_rightside">
+        <section class="contact_rightside">
             <h2>Contact Formulier</h2>
             <form>
                 <label for="contact_name">Naam:</label>
@@ -51,7 +53,7 @@
 
                 <input type="submit" value="submit">
             </form>
-        </div>
+        </section>
     </main>
 
     <?php  include "./general_site_files/footer.html" ?>

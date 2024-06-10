@@ -8,9 +8,11 @@
 <body>
     <?php include "./general_site_files/navbar.html" ?>
 
-    <main>
+    <header>
         <h1>Opleidingen & Werk</h1>
-        <div class="school_work">
+    </header>
+    <main>
+        <section class="school_work">
             <h2>Werkervaring</h2>
             <h3>Mei 2024 - Heden</h3>
             <p>Tankstation werknemer - Shell</p>
@@ -29,20 +31,20 @@
 
             <h3>Januari 2019 - Maart 2020</h3>
             <p>Allround medewerker - New York Pizza</p>
-        </div>
+        </section>
 
-        <div class="school_diplomas">
+        <section class="school_diplomas">
             <h2>Scholen en opleidingen</h2>
             <h3>Augustus 2022 - Heden</h3>
             <p>2e jaars Software Development MBO 4 - Techniek College Rotterdam</p>
 
             <h3>Februari 2021 - Juni 2022</h3>
             <p>VMBO-TL versneld VAVO trajet - Yulius onderwijs i.s.m Curio Breda</p>
-        </div>
+        </section>
 
-        <div class="school_photo">
+        <section class="school_photo">
             <img source="#">
-        </div>
+        </section>
     </main>
 
     <?php include "./general_site_files/footer.html" ?>
