@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet.css">
-    <title>Opleidingen & Werk</title>
+    <title>Opleidingen & Werk - Portfolio Jack</title>
 </head>
 <body>
     <?php include "./general_site_files/navbar.html" ?>

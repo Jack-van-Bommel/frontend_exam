@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./stylesheet.css">
-	<title>Portfolio Jack van Bommel</title>
+	<title>Homepagina - Portfolio Jack van Bommel</title>
 </head>
 <body>
 	<?php include "./general_site_files/navbar.html" ?>
