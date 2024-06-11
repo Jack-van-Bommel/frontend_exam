@@ -28,7 +28,7 @@
 		</section>
 
 		<section class="homepage_links">
-			<img src="./images/profesional-photo.png" class="homepage_img">
+			<img src="./images/profesional-photo.png" class="homepage_img" alt="Photo of Jack giving a presentation infront of a screen.">
 			<ul>
 				<li><a href="https://www.linkedin.com/in/jack-van-bommel-84a1a924b/">LinkedIn</a></li>
 				<li><a href="https://github.com/Jack-van-Bommel">Github</a></li>

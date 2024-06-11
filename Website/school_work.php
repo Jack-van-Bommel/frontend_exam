@@ -41,7 +41,7 @@
 
             <h3>Februari 2021 - Juni 2022</h3>
             <p>VMBO-TL versneld VAVO trajet - Yulius onderwijs i.s.m Curio Breda</p>
-            <img src="./images/school-photo.jpg">
+            <img src="./images/school-photo.jpg" alt="Picture of me making an exam in highschool.">
         </section>
     </main>
 
