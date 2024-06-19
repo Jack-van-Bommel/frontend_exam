@@ -5,6 +5,12 @@ body {
   background-color: #488B42;
   min-height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* Homepage Main Section */
+  /* Skills, School, Project Sections */
+  /* Media Queries for Tablet Landscape and Portrait Modes */
+  /* Footer */
 }
 body nav {
   background-color: #59D64E;
@@ -14,6 +20,7 @@ body nav {
 }
 body nav a {
   color: black;
+  text-decoration: none;
 }
 body nav ul {
   margin: 0;
@@ -31,16 +38,11 @@ body header {
   width: 100%;
   height: 7vh;
   justify-content: center;
+  margin-top: 2vh; /* Adjusted margin to create space above header */
 }
 body header h1 {
   color: white;
   font-size: 35px;
-}
-body main {
-  display: flex;
-  height: 72vh;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 body .homepage_main {
   color: white;
@@ -48,13 +50,14 @@ body .homepage_main {
   flex-direction: row;
   justify-content: space-between;
   font-size: 25px;
+  margin-top: 8vh; /* Adjusted margin to create space below header */
 }
 body .homepage_main .homepage_main_articles {
   display: flex;
   flex-direction: column;
   width: 40vw;
-  padding-left: 15rem;
-  height: 76.5vh;
+  padding-left: 15rem; /* Adjust as needed */
+  height: auto; /* Adjusted for responsiveness */
   gap: 1rem;
   justify-content: space-evenly;
 }
@@ -67,12 +70,16 @@ body .homepage_main .homepage_links {
   display: flex;
   flex-direction: column;
   width: 40vw;
-  padding-right: 15rem;
-  align-items: flex-end;
-  height: 76.5vh;
+  padding-right: 15rem; /* Adjust as needed */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text horizontally */
 }
 body .homepage_main .homepage_links .homepage_img {
-  width: 50%;
+  width: 50%; /* Adjusted width for the image */
+  max-width: 100%; /* Ensures image does not exceed its container */
+  height: auto; /* Ensures image maintains its aspect ratio */
+  margin-top: 1rem; /* Adjust margin for spacing */
   border-radius: 25px;
   border: 5px solid white;
 }
@@ -83,133 +90,75 @@ body .homepage_main .homepage_links ul {
   padding: 2rem;
   list-style-type: none;
 }
-body .skills_main {
+body .skills_main, body .school_main, body .project_main {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
   justify-content: space-evenly;
+  padding: 2rem; /* Added padding for spacing */
 }
-body .skills_main section {
+body .skills_main section, body .skills_main .school_work, body .skills_main .school_diplomas, body .skills_main .project_container, body .skills_main .contact_side, body .school_main section, body .school_main .school_work, body .school_main .school_diplomas, body .school_main .project_container, body .school_main .contact_side, body .project_main section, body .project_main .school_work, body .project_main .school_diplomas, body .project_main .project_container, body .project_main .contact_side {
   background-color: #7BA766;
-  width: 40%;
   border-radius: 25px;
-  height: 45%;
+  margin-bottom: 2rem; /* Adjusted margin for spacing */
+  padding: 1.5rem; /* Adjusted padding for spacing */
+  width: 40%; /* Adjusted width for tablet portrait mode */
 }
-body .skills_main section h3 {
-  width: 100%;
+body .skills_main h2, body .skills_main h3, body .school_main h2, body .school_main h3, body .project_main h2, body .project_main h3 {
   display: flex;
   justify-content: space-evenly;
   color: white;
   text-decoration: underline;
   font-size: 25px;
 }
-body .skills_main section ul {
+body .skills_main ul, body .school_main ul, body .project_main ul {
   font-size: 20px;
+  padding: 1rem;
 }
-body .skills_main section ul li {
+body .skills_main ul li, body .school_main ul li, body .project_main ul li {
   line-height: 2rem;
 }
-body .school_main {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-  justify-content: space-evenly;
+body .skills_main p, body .skills_main img, body .school_main p, body .school_main img, body .project_main p, body .project_main img {
+  margin: 1rem;
 }
-body .school_main .school_work {
-  background-color: #7BA766;
-  width: 40vw;
-  line-height: 2rem;
-  border-radius: 25px;
-}
-body .school_main .school_work h2 {
-  display: flex;
-  justify-content: space-evenly;
-  color: white;
-  text-decoration: underline;
-  font-size: 25px;
-}
-body .school_main .school_work h3 {
-  font-weight: bold;
-  margin-left: 4rem;
-}
-body .school_main .school_work p {
-  font-size: 20px;
-  margin-left: 4rem;
-}
-body .school_main .school_work ul {
-  margin-left: 4rem;
-}
-body .school_main .school_work ul li {
-  font-size: 20px;
-}
-body .school_main .school_diplomas {
-  background-color: #7BA766;
-  width: 40vw;
-  height: 72vh;
-  border-radius: 25px;
-}
-body .school_main .school_diplomas h2 {
-  display: flex;
-  color: white;
-  text-decoration: underline;
-  justify-content: space-evenly;
-  font-size: 25px;
-}
-body .school_main .school_diplomas h3 {
-  font-weight: bold;
-  margin-left: 4rem;
-}
-body .school_main .school_diplomas p {
-  font-size: 20px;
-  margin-left: 4rem;
-}
-body .school_main .school_diplomas ul {
-  margin-left: 4rem;
-}
-body .school_main .school_diplomas ul li {
-  font-size: 20px;
-}
-body .school_main .school_diplomas img {
-  margin-top: 2.5rem;
-  object-fit: contain;
-  border-radius: 25px;
-  margin-left: 14vw;
-  height: 36vh;
-  border: 5px solid white;
-}
-body .project_main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-size: 25px;
-}
-body .project_main .project_container {
-  width: 100vw;
-  height: 30%;
-  border-radius: 25px;
-  display: flex;
-  flex-direction: row;
-}
-body .project_main .project_container .project_text {
-  border-radius: 25px;
-  margin-left: 2rem;
-  width: 50%;
-  background-color: #7BA766;
-}
-body .project_main .project_container .project_text h3 {
-  display: flex;
-  color: white;
-  text-decoration: underline;
-  justify-content: space-evenly;
-  font-size: 25px;
-}
-body .project_main .project_container .project_text p {
-  margin: 2rem;
-}
-body .project_main .project_container img {
-  margin-left: 10rem;
+body .skills_main img, body .school_main img, body .project_main img {
+  max-width: 100%; /* Ensures image fits container */
+  height: auto;
   border-radius: 15px;
   border: 5px solid white;
+}
+@media (max-width: 1024px) {
+  body .homepage_main .homepage_main_articles, body .homepage_main .homepage_links {
+    width: 90%; /* Adjusted width for tablet landscape mode */
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body .homepage_main .homepage_main_articles .homepage_articles {
+    width: 80%; /* Adjusted width for articles in homepage_main */
+    padding: 1.5rem; /* Adjusted padding for articles */
+  }
+  body .homepage_main .homepage_links .homepage_img {
+    width: 80%; /* Adjusted width for image in homepage_links */
+  }
+  body .skills_main section, body .skills_main .school_work, body .skills_main .school_diplomas, body .skills_main .project_container, body .skills_main .contact_side, body .school_main section, body .school_main .school_work, body .school_main .school_diplomas, body .school_main .project_container, body .school_main .contact_side, body .project_main section, body .project_main .school_work, body .project_main .school_diplomas, body .project_main .project_container, body .project_main .contact_side, body .contact_main section, body .contact_main .school_work, body .contact_main .school_diplomas, body .contact_main .project_container, body .contact_main .contact_side {
+    width: 90%; /* Adjusted width for tablet landscape mode */
+  }
+}
+@media (max-width: 768px) {
+  body .homepage_main {
+    flex-direction: column; /* Adjusted to stack elements in homepage_main */
+    align-items: center;
+    font-size: 20px;
+  }
+  body .homepage_main .homepage_main_articles, body .homepage_main .homepage_links {
+    width: 95%; /* Adjusted width for tablet portrait mode */
+  }
+  body .homepage_main .homepage_main_articles .homepage_articles, body .homepage_main .homepage_links ul {
+    width: 100%; /* Adjusted width for articles and ul in homepage_main */
+    padding: 1rem; /* Adjusted padding for articles and ul */
+  }
+  body .skills_main section, body .skills_main .school_work, body .skills_main .school_diplomas, body .skills_main .project_container, body .skills_main .contact_side, body .school_main section, body .school_main .school_work, body .school_main .school_diplomas, body .school_main .project_container, body .school_main .contact_side, body .project_main section, body .project_main .school_work, body .project_main .school_diplomas, body .project_main .project_container, body .project_main .contact_side, body .contact_main section, body .contact_main .school_work, body .contact_main .school_diplomas, body .contact_main .project_container, body .contact_main .contact_side {
+    width: 90%; /* Adjusted width for tablet portrait mode */
+  }
 }
 body .contact_main {
   display: flex;
@@ -230,6 +179,44 @@ body .contact_main .contact_side h2 {
   justify-content: space-evenly;
   font-size: 30px;
 }
+body .school_work,
+body .school_diplomas {
+  background-color: #7BA766;
+  border-radius: 25px;
+  margin-bottom: 2rem; /* Adjusted margin for spacing */
+  padding: 1.5rem; /* Adjusted padding for spacing */
+  width: 40%; /* Adjusted width for tablet portrait mode */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text horizontally */
+}
+body .school_work img,
+body .school_diplomas img {
+  max-width: 50%; /* Ensures image fits container */
+  height: auto; /* Ensures image maintains its aspect ratio */
+  border-radius: 15px;
+  border: 5px solid white;
+  margin-top: 1rem; /* Adjust margin for spacing */
+}
+body .project_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #7BA766;
+  border-radius: 25px;
+  margin-bottom: 2rem; /* Adjusted margin for spacing */
+  padding: 1.5rem; /* Adjusted padding for spacing */
+  width: 40%; /* Adjusted width for tablet portrait mode */
+}
+body .project_container img {
+  max-width: 80%; /* Reduce the maximum width of images */
+  height: auto; /* Ensure images maintain their aspect ratio */
+  border-radius: 15px;
+  border: 5px solid white;
+  margin-top: 1rem; /* Adjust margin for spacing */
+}
 body footer {
   display: flex;
   flex-direction: row;
@@ -240,6 +227,7 @@ body footer {
   color: white;
   background-color: #133D12;
   border-top: 5px solid #366831;
+  margin-top: auto; /* Pushes footer to the bottom */
 }
 body footer p {
   font-size: 18px;
